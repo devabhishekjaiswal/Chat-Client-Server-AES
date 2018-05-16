@@ -1,0 +1,50 @@
+Abhishek Jaiswal
+IIT2013129
+BTech IT
+
+
+I have made two separate projects 
+
+1) ChatClient(one to one chat client server) (3 MARKS)
+	COMPLETED ALL THE TASKS.
+	* Made gui 
+	* Added wireshark snaps to the PDF
+	
+2) Multithreaded Chat Client (group chat client server)
+	COMPLETED ALL THE TASKS.
+	* Made gui (2 MARKS)
+	* Added username and password login (1.5 MARKS)
+	* Made fully working multichat client server with snaps of Wireshark added to pdf (7 MARKS)
+	* Implemented StrongAES encryption to encrypt the message and added snaps of encypted messages in
+	  wireshark.(5 MARKS)
+
+STEPS TO COMPILE :
+
+
+1) ChatClient(one to one chat client server) -->
+	a) Copy the ChatClient project to NetBeans.
+     	b) In the Server Package Compiler ServerTest.java file, you will get a GUI for server side
+	c) Then in the Client package compile the ClientTest.java file now you will get the GUI for the client.
+	d) In the top portion of the two GUIs you will see a text field type your message, IT will be sent.
+	e) You can see the History of chats in the Text Area of each GUI.
+
+2) Multithreaded Chat Client (group chat client server)
+	a) Copy the "Multithreaded Chat Client" project to NetBeans.
+    	b) In the MultiServer package compile the "Server.java" file.
+ 	c) In the MulitClient package compile the "ClientTest.java" file as many clients you want.
+	d) I have maintained a set of predefined PASSWORDS and USERNAME in the hashmap.
+	e) In the client GUI enter the valid password and username and then click on LogIn button.
+	f) IMP: valid passwords are: 
+			USERNAME 	PASSWORD
+			abhishek	456
+			a		123
+			abc		212
+			xyz		123
+	g) enter any of the above username and password combination to login successfully.
+	h) once you successfully login server will show welcome message, otherwise Unauthorised login message comes.
+	i) Enter your message in textfild below login button
+	j) PRESS ENTER once you type message in textfield DO NOT PRESS SEND BUTTON.
+	k) your message will be then sent to all the clients and server.
+	l) You can see all the history of chats in text area present in any server GUI and client GUI.
+	
+
